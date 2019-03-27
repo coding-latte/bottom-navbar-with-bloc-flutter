@@ -40,14 +40,11 @@ class _MyHomePageState extends State<MyHomePage> {
       bloc: _navbarBloc,
       builder: (BuildContext context, NavbarState state) {
         if (state is ShowBlue)
-          return buildHomepage(
-              state.title, Colors.blue, state.selectNavbarIndex);
+          return buildHomepage(state.title, Colors.blue, state.itemIndex);
         if (state is ShowGreen)
-          return buildHomepage(
-              state.title, Colors.green, state.selectNavbarIndex);
+          return buildHomepage(state.title, Colors.green, state.itemIndex);
         if (state is ShowRed)
-          return buildHomepage(
-              state.title, Colors.red, state.selectNavbarIndex);
+          return buildHomepage(state.title, Colors.red, state.itemIndex);
       },
     );
     ;
