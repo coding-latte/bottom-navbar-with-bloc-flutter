@@ -1,8 +1,4 @@
-import 'package:equatable/equatable.dart';
-
-abstract class NavbarState extends Equatable {
-  NavbarState([List props = const []]) : super(props);
-}
+abstract class NavbarState {}
 
 class ShowRed extends NavbarState {
   final String title = "Red";
