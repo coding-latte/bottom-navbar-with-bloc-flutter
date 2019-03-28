@@ -47,7 +47,6 @@ class _MyHomePageState extends State<MyHomePage> {
           return buildHomepage(state.title, Colors.red, state.itemIndex);
       },
     );
-    ;
   }
 
   Scaffold buildHomepage(String title, Color color, int currentIndex) {
