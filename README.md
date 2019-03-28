@@ -1,16 +1,5 @@
-# bottom_navbar_with_bloc_flutter
+# Flutter Building a Bottom Navigation Bar with "Flutter_Bloc"
 
-A new Flutter project.
+![Flutter Bottom Navigation Bar](https://codinglatte.com/posts/flutter/flutter-building-bottomnavigationbar-with-flutter-bloc/bottom_navbar_bloc_sm.gif)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+This repo demos how to build a Bottom Navigation Bar with "flutter_bloc" with bloc pattern. You can find a detailed explanation of the code [here](https://codinglatte.com/posts/flutter/flutter-building-bottomnavigationbar-with-flutter-bloc/). 
